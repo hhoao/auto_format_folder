@@ -2,10 +2,10 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:image_statistics/main_area.dart';
-import 'package:image_statistics/models/main.dart';
-import 'package:image_statistics/widgets/tab_button.dart';
-import 'package:image_statistics/widgets/window_button.dart';
+import 'package:auto_format_folder/main_area.dart';
+import 'package:auto_format_folder/models/main.dart';
+import 'package:auto_format_folder/widgets/tab_button.dart';
+import 'package:auto_format_folder/widgets/window_button.dart';
 import 'package:path/path.dart' as path;
 import 'package:window_manager/window_manager.dart';
 

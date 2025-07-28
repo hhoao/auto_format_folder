@@ -1,7 +1,7 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:image_statistics/tab_manager.dart';
+import 'package:auto_format_folder/tab_manager.dart';
 import 'package:window_manager/window_manager.dart';
 
 void main() async {

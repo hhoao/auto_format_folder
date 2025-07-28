@@ -4,7 +4,7 @@ import 'package:desktop_drop/desktop_drop.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:filesize/filesize.dart';
 import 'package:flutter/material.dart';
-import 'package:image_statistics/models/main.dart';
+import 'package:auto_format_folder/models/main.dart';
 import 'package:path/path.dart' as path;
 
 class UploadFileArea extends StatefulWidget {
