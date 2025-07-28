@@ -1,16 +1,16 @@
-# image_statistics
+# 格式化文件夹
 
-A new Flutter project.
+![](https://github.com/hhoao/auto_format_folder/blob/main/assets/img.png?raw=true)
 
-## Getting Started
+一个基于Flutter开发的跨平台桌面应用，用于自动格式化添加进文件夹的文件或文件夹
 
-This project is a starting point for a Flutter application.
+## ✨ 主要功能
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [x] **文件夹递归扫描**: 拖拽文件夹时自动扫描所有子文件夹中的文件
+- [x] **批量文件处理**: 支持同时处理多个文件
+- [x] **自动重命名**: 将文件重命名为统一的格式（file_1, file_2, ...）
+- [x] **文件统计**: 实时显示目标文件夹的文件数量和总大小
+- [x] **多标签页支持**: 支持同时处理多个不同的文件夹
+- [x] **智能重建**: 单个标签页关闭后自动创建新标签页
+- [x] **拖拽操作**: 支持文件和文件夹拖拽到应用窗口
+- [x] **自动处理**: 可开启自动处理模式，拖拽后立即处理文件

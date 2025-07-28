@@ -15,7 +15,7 @@ void main() async {
     await windowManager.ensureInitialized();
 
     WindowOptions windowOptions = const WindowOptions(
-      size: Size(1000, 700),
+      size: Size(800, 600),
       center: true,
       backgroundColor: Colors.transparent,
       skipTaskbar: false,
@@ -37,7 +37,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: '文件自动重命名统计',
+      title: '格式化文件夹',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
         useMaterial3: true,
@@ -163,7 +163,7 @@ class _TabManagerState extends State<TabManager> with TickerProviderStateMixin {
                     const Icon(Icons.folder_open, size: 20),
                     const SizedBox(width: 8),
                     const Text(
-                      '文件自动管理工具',
+                      '格式化文件夹',
                       style: TextStyle(
                         fontSize: 14,
                         fontWeight: FontWeight.bold,
