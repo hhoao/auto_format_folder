@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>com.github.hhoao.auto-format-folder</id>
+  <name>格式化文件夹</name>
+  <summary>自动格式化添加进文件夹的文件或文件夹</summary>
+  <metadata_license>MIT</metadata_license>
+  <project_license>MIT</project_license>
+  <description>
+    <p>
+      一个基于Flutter开发的跨平台桌面应用，用于自动格式化添加进文件夹的文件或文件夹。
+      支持文件夹递归扫描、多标签页管理、拖拽操作等功能。
+    </p>
+    <ul>
+      <li>文件夹递归扫描</li>
+      <li>批量文件处理</li>
+      <li>自动重命名</li>
+      <li>多标签页管理</li>
+      <li>拖拽操作</li>
+    </ul>
+  </description>
+  <launchable type="desktop-id">auto-format-folder.desktop</launchable>
+  <url type="homepage">https://github.com/hhoao/auto_format_folder</url>
+  <url type="bugtracker">https://github.com/hhoao/auto_format_folder/issues</url>
+  <url type="help">https://github.com/hhoao/auto_format_folder</url>
+  <developer_name>hhoao</developer_name>
+  <content_rating type="oars-1.1"/>
+  <releases>
+    <release version="1.0.0" date="2024-01-01"/>
+  </releases>
+</component> 

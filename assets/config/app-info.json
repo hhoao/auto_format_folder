@@ -1,0 +1,20 @@
+{
+  "app_name": "auto_format_folder",
+  "display_name": "格式化文件夹",
+  "version": "1.0.0",
+  "description": "自动格式化添加进文件夹的文件或文件夹",
+  "app_id": "auto-format-folder",
+  "developer_name": "hhoao",
+  "homepage": "https://github.com/hhoao/auto_format_folder",
+  "bugtracker": "https://github.com/hhoao/auto_format_folder/issues",
+  "help_url": "https://github.com/hhoao/auto_format_folder",
+  "license": "MIT",
+  "categories": ["Utility", "FileManager"],
+  "features": [
+    "文件夹递归扫描",
+    "批量文件处理", 
+    "自动重命名",
+    "多标签页管理",
+    "拖拽操作"
+  ]
+} 

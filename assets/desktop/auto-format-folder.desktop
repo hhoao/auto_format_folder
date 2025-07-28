@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=格式化文件夹
+Comment=自动格式化添加进文件夹的文件或文件夹
+Exec=auto_format_folder
+Icon=auto-format-folder
+Type=Application
+Categories=Utility;FileTools;
+StartupNotify=true
+Terminal=false
